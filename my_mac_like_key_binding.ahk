@@ -3,7 +3,7 @@
 ; emacs like arrow key
 !p::Send "{Up}"
 !n::Send "{Down}"
-!h::Send "{Left}"
+!b::Send "{Left}"
 !f::Send "{Right}"
 
 ; esc + muhennkan
