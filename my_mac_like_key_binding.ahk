@@ -1,12 +1,11 @@
 ﻿#Requires AutoHotkey v2.0
 
-; emacs like arrow key
-^p::Send "{Up}"
-^n::Send "{Down}"
-^b::Send "{Left}"
-^f::Send "{Right}"
-^h::Send "{BS}"
-^;::Send "{Enter}"
+; emacs like
+^p::Up
+^n::Down
+^b::Left
+^f::Right
+^h::BS
 
 ; esc + muhennkan
 ^j::esc_muhenkan()
@@ -26,6 +25,8 @@ RWin::Send "{vk1Csc079}"
 !v::^v
 !a::^a
 !s::^s
+!f::^f
+^;::Enter
 
 ; show desktop (win + d)
-!w::Send "#d"
+!w::#d
